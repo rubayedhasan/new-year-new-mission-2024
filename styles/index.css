@@ -53,3 +53,34 @@ header {
   font-size: 72px;
   font-weight: 900;
 }
+
+/* promo-&-discount section style  */
+.promo-and-discount {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+.promo-and-discount .discount-text {
+  color: #ff0000;
+  font-size: 88px;
+  font-weight: 700;
+  padding-bottom: 48px;
+}
+
+.promo-and-discount .fig-semi-title {
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.promo-and-discount .fig-title {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 48px;
+}
+
+.promo-and-discount figure img {
+  width: 100%;
+}
