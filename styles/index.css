@@ -12,7 +12,7 @@ li {
 }
 
 a {
-  text-decoration: nones;
+  text-decoration: none;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-  width: 960px;
+  width: 1140px;
   margin: 0 auto;
 }
 
@@ -58,6 +58,7 @@ header {
 .promo-and-discount {
   text-align: center;
   font-family: "Inter", sans-serif;
+  margin-bottom: 120px;
 }
 
 .promo-and-discount .discount-text {
@@ -83,4 +84,39 @@ header {
 
 .promo-and-discount figure img {
   width: 100%;
+}
+
+/* new-year-party-invention section style  */
+.new-year-party-invention {
+  color: #fff;
+  background: url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #0000009a;
+  background-blend-mode: overlay;
+  padding: 126px 126px 142px;
+  border-radius: 10px;
+  margin-bottom: 120px;
+}
+
+.new-year-party-invention .party-title {
+  font-size: 64px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+  padding-bottom: 24px;
+}
+
+.new-year-party-invention .about-party {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 48px;
+}
+
+.new-year-party-invention .join-btn {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
 }
