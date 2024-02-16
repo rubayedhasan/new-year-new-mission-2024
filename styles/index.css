@@ -88,6 +88,9 @@ header {
 
 /* new-year-party-invention section style  */
 .new-year-party-invention {
+  margin-bottom: 120px;
+}
+.new-year-party-invention .new-year-party-theme {
   color: #fff;
   background: url("../images/Vectorrr.png");
   background-repeat: no-repeat;
@@ -98,6 +101,7 @@ header {
   padding: 126px 126px 142px;
   border-radius: 10px;
   margin-bottom: 120px;
+  text-align: left;
 }
 
 .new-year-party-invention .party-title {
@@ -119,4 +123,28 @@ header {
   font-size: 20px;
   font-weight: 700;
   font-family: "Inter", sans-serif;
+}
+.new-year-party-invention .party-location {
+  text-align: center;
+  padding: 100px 0 110px;
+  font-family: "Inter", sans-serif;
+  border-radius: 15px;
+  background-image: linear-gradient(#ff00002c, #ff000000);
+}
+
+.new-year-party-invention .party-location p {
+  color: #070211;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.new-year-party-invention .party-location p > span {
+  color: #ff0000;
+}
+.new-year-party-invention .party-location .join-btn {
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 5px;
+  margin-top: 28px;
+  background-color: #ff0000;
 }
