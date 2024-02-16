@@ -1,0 +1,55 @@
+/* google fonts link  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: nones;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* banner part style  */
+header {
+  margin: 50px 0 120px;
+}
+.banner {
+  background: url("../images/Banner\ Image.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000000a9;
+  background-blend-mode: overlay;
+  text-align: center;
+  color: #fff;
+  padding: 177px 0;
+  border-radius: 10px;
+  font-family: "Merriweather", serif;
+}
+
+.banner .banner-semi-title {
+  font-size: 32px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.banner .banner-title {
+  font-size: 72px;
+  font-weight: 900;
+}
