@@ -315,6 +315,8 @@ footer {
   font-size: 24px;
   font-weight: 500;
 }
+
+/* our-info section style  */
 .our-info {
   display: flex;
   justify-content: space-between;
@@ -337,6 +339,8 @@ footer {
 .social-icons .icon img {
   width: 100%;
 }
+
+/* social-icons section styles */
 .social-icons {
   display: flex;
   justify-content: center;
@@ -345,4 +349,15 @@ footer {
   padding-bottom: 50px;
   border-bottom: 2px solid #ffffff63;
   margin-bottom: 48px;
+}
+
+/* disclaimer section style  */
+.disclaimer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.disclaimer .unscribe-text p a {
+  color: #fff;
 }
