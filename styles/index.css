@@ -305,3 +305,34 @@ header {
   border: none;
   outline: 0;
 }
+
+/* footer section style */
+footer {
+  background-color: #070211;
+  padding: 120px 0;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.our-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+  border-bottom: 2px solid #ffffff63;
+  margin-bottom: 48px;
+}
+.our-info .location address > p {
+  margin-bottom: 18px;
+}
+.our-info .contact .method {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.our-info .contact .method .icon img {
+  width: 100%;
+}
