@@ -148,3 +148,53 @@ header {
   margin-top: 28px;
   background-color: #ff0000;
 }
+
+/* our-offer section stylws  */
+.our-offer {
+  display: flex;
+  column-gap: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+.our-offer .offer-promo .promo-mini-title {
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+}
+.our-offer .offer-promo .promo-title {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+  font-family: "Merriweather", serif;
+}
+.our-offer .offer-promo .about-promo {
+  color: #070211bb;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+.our-offer .offer-image {
+  padding: 50px;
+  border: 10px solid #ff0000;
+  border-radius: 50%;
+}
+.our-offer .offer-mini-promo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  font-family: "Inter", sans-serif;
+}
+.our-offer .offer-mini-promo .year-title {
+  color: #ff0000;
+  font-size: 48px;
+  font-weight: 700;
+}
+.our-offer .offer-mini-promo p {
+  color: #0702116c;
+  font-size: 20px;
+  font-weight: 400;
+}
