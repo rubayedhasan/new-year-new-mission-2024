@@ -226,3 +226,14 @@ header {
   font-family: "Inter", sans-serif;
   margin-bottom: 48px;
 }
+.gift-gallery .gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.gift-gallery .gallery .gallery-items img {
+  width: 350px;
+  height: 350px;
+}
