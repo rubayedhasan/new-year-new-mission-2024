@@ -333,6 +333,16 @@ footer {
   gap: 10px;
   margin-bottom: 10px;
 }
-.our-info .contact .method .icon img {
+.our-info .contact .method .icon img,
+.social-icons .icon img {
   width: 100%;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding-bottom: 50px;
+  border-bottom: 2px solid #ffffff63;
+  margin-bottom: 48px;
 }
