@@ -149,7 +149,7 @@ header {
   background-color: #ff0000;
 }
 
-/* our-offer section stylws  */
+/* our-offer section styles  */
 .our-offer {
   display: flex;
   column-gap: 80px;
@@ -198,6 +198,37 @@ header {
   color: #0702116c;
   font-size: 20px;
   font-weight: 400;
+}
+
+/* advertisement section styles  */
+.advertisement {
+  margin-bottom: 120px;
+}
+.advertisement .describe-advertisement {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+.advertisement .describe-advertisement .add-mini-title {
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+.advertisement .describe-advertisement .add-title {
+  color: #070211;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+.advertisement .describe-advertisement .add-title span {
+  color: #ff0000;
+}
+.advertisement .describe-advertisement .add-text {
+  color: #07021167;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 65px;
 }
 
 /* gift-gallery section style  */
