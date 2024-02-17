@@ -247,6 +247,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 45px;
+  margin-bottom: 120px;
 }
 .subscribe-pallet .pallet-image img {
   width: 100%;
@@ -269,6 +270,38 @@ header {
   font-size: 20px;
   font-family: "Inter", sans-serif;
 }
-.subscribe-pallet .scribe-form {
-  /* position: relative; */
+/* .subscribe-pallet .scribe-form {
+  position: relative;
+} */
+.scribe-form #email-Address {
+  color: #070211;
+  border: none;
+  outline: 0;
+  height: 35px;
+  width: 450px;
+  padding: 25px 30px;
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  border-radius: 35px 0 0 35px;
+}
+
+.scribe-form #email-Address::placeholder {
+  color: #07021150;
+}
+
+.scribe-form #subscribe-submit {
+  display: inline-block;
+  color: #fff;
+  height: 85px;
+  width: 200px;
+  padding: 24px 56px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  border-radius: 0 35px 35px 0;
+  background-color: #ff0000;
+  margin-left: -2px;
+  border: none;
+  outline: 0;
 }
