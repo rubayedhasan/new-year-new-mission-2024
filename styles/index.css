@@ -237,3 +237,38 @@ header {
   width: 350px;
   height: 350px;
 }
+/* subscribe-pallet section style  */
+.subscribe-pallet {
+  padding: 80px 0;
+  border-radius: 10px;
+  background-color: #ff00002d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+.subscribe-pallet .pallet-image img {
+  width: 100%;
+}
+.subscribe-pallet .pallet-group-text {
+  text-align: center;
+}
+.subscribe-pallet .pallet-group-text .scribe-title {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 22px;
+  font-family: "Merriweather", serif;
+}
+.subscribe-pallet .pallet-group-text .scribe-text {
+  color: #07021175;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.7;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+.subscribe-pallet .scribe-form {
+  /* position: relative; */
+}
